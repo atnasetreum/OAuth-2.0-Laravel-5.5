@@ -4,19 +4,19 @@ CREATE USER 'homestead'@'localhost' IDENTIFIED BY 'secret';
 GRANT ALL PRIVILEGES ON * . * TO 'homestead'@'localhost';
 FLUSH PRIVILEGES;
 
-###Correr Migraciones
+### Correr Migraciones
 php artisan migrate
 
-###Crear clientes pasport
+### Crear clientes pasport
 php artisan passport:install
 
-###Ejecutar proyecto
+### Ejecutar proyecto
 php artisan serve
 
-###Registro
+### Registro
 Registrar un nuevo usuario
 
-###postman
+### postman
 En los headers de la peticion GET http://127.0.0.1:8000/api/user
 Accept = application/json
 Authorization = Bearer (Personal Access Tokens)
