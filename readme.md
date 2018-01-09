@@ -1,4 +1,4 @@
-###Crear Usuario DB
+### Crear Usuario DB
 
 CREATE USER 'homestead'@'localhost' IDENTIFIED BY 'secret';
 GRANT ALL PRIVILEGES ON * . * TO 'homestead'@'localhost';
