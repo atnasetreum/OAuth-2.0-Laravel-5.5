@@ -4,6 +4,15 @@ CREATE USER 'homestead'@'localhost' IDENTIFIED BY 'secret';
 GRANT ALL PRIVILEGES ON * . * TO 'homestead'@'localhost';
 FLUSH PRIVILEGES;
 
+### Instalar dependencias laravel
+composer update
+
+### Instalar dependencias npm
+npm install
+
+### Compilar
+npm run dev
+
 ### Correr Migraciones
 php artisan migrate
 
